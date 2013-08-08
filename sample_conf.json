@@ -1,0 +1,19 @@
+{
+    "/": {
+        "response": 200,
+        "mimetype": "html", 
+        "data": "Hello World!"
+    },
+    "/json": {
+        "response": 200,
+        "mimetype": "json", 
+        "data": {
+		"result":"success"
+	}
+    },
+    "/path/file":{
+	"response":200,
+	"mimetype": "csv",
+	"data": "file:samplefile.csv"
+    }
+}
